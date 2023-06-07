@@ -4,6 +4,7 @@ from PyQt5.QtCore import Qt, QTimer
 from random import randint
 
 def clearLayout(layout):
+    
     if layout is not None:
         while layout.count():
             child = layout.takeAt(0)
